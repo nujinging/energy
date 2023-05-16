@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="section1">
+<header id="header" class="header_con">
+    <div class="inner">
+        <h1 class="logo">
+            <a href="">
+                <span class="blind">로고</span>
+            </a>
+        </h1>
+        <ul class="nav">
+            <li class="nav_item">
+                <a href="" class="link">
+                    <span>BUSINESS</span>
+                </a>
+            </li>
+            <li class="nav_item">
+                <a href="" class="link">
+                    <span>PRODUCT</span>
+                </a>
+            </li>
+            <li class="nav_item">
+                <a href="" class="link">
+                    <span>COMPANY</span>
+                </a>
+            </li>
+            <li class="nav_item">
+                <a href="" class="link">
+                    <span>CAREER</span>
+                </a>
+            </li>
+            <li class="nav_item">
+                <a href="" class="link">
+                    <span>CONTACT</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link">
+                    <span class="blind">아이콘</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="nav_all">
+        <div class="inner">
+            <ul class="list">
+                <li>
+                    <a href="" class="link">토탈솔루션</a>
+                </li>
+                <li>
+                    <a href="" class="link">설비제조</a>
+                </li>
+                <li>
+                    <a href="" class="link link_sub">
+                        교육&Battery<br/>Academy
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link">셀개발</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <a href="" class="link">전극</a>
+                </li>
+                <li>
+                    <a href="" class="link">원형</a>
+                </li>
+                <li>
+                    <a href="" class="link">파우치형</a>
+                </li>
+                <li>
+                    <a href="" class="link">각형</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <a href="" class="link">회사소개</a>
+                </li>
+                <li>
+                    <a href="" class="link">CEO 인사말</a>
+                </li>
+                <li>
+                    <a href="" class="link">레퍼런스</a>
+                </li>
+                <li>
+                    <a href="" class="link link_sub">글로벌 클라이언트</a>
+                </li>
+                <li>
+                    <a href="" class="link">뉴스룸</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <a href="" class="link">인재상</a>
+                </li>
+                <li>
+                    <a href="" class="link">직무소개</a>
+                </li>
+                <li>
+                    <a href="" class="link">복리후생</a>
+                </li>
+                <li>
+                    <a href="" class="link">채용안내</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <a href="" class="link">문의하기</a>
+                </li>
+                <li>
+                    <a href="" class="link">오시는길</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="wrap">
+    <section class="top_box career">
+        <h2 class="tit">DUTIES INTRODUCTION</h2>
+    </section>
+    <section class="contents_box">
+        <div class="navigation">
+            <div class="inner">
+                <a href="" class="link">HOME</a>
+                <a href="" class="link">CAREER</a>
+                <a href="" class="link">직무소개</a>
+            </div>
+        </div>
+        <div class="career_con">
+            <div class="inner">
+                <div class="tit">
+                    모두에게 열려있는<br/>
+                    <strong>에너지테크솔루션</strong>의 <em>직무</em>를 소개합니다
+                </div>
+                <ul class="career_list">
+                    <li>
+                        <div class="link" onclick="openModal('electrode')">
+                            <span>전극 제조팀</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="link" onclick="openModal('equip')">
+                            <span>장비 제조부</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="link" onclick="openModal('battery')">
+                            <span>전지 개발 연구소</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="link" onclick="openModal('affairs')">
+                            <span>총무 및 대외협력부</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="link" onclick="openModal('supports')">
+                            <span>경영지원부</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="link" onclick="openModal('supports2')">
+                            <span>영업부</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="modal_box career electrode" id="electrode_modal">
+        <div class="modal_top">
+            <h3>전극 제조팀</h3>
+        </div>
+        <div class="modal_con">
+            <h4 class="tit">직무 소개</h4>
+            <p class="txt">
+                리튬이차전지의 양극, 음극 활물질을 동박이나 알루미늄박에 코팅하고 프레스슬리팅,<br/>
+                펀칭,건조작업 등을 통해 전극을 제고하는 직무
+            </p>
+            <h4 class="tit">주요 업무</h4>
+            <div class="work_badge">
+                <span class="badge">전극 제조 </span>
+                <span class="badge">장비 조립</span>
+            </div>
+        </div>
+        <button type="button" class="btn_close" onclick="closeModal(this);">
+            <span class="blind">닫기</span>
+        </button>
+    </div>
+    <div class="modal_box career equip" id="equip_modal">
+        <div class="modal_top">
+            <h3>장비 제조부</h3>
+        </div>
+        <div class="modal_con">
+            <div class="modal_career_tab">
+                <input type="radio" name="tabs1" id="equip_tab01" checked="checked">
+                <label for="equip_tab01">설계팀
+                </label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        고객이 의뢰한 제품 스팩에 대하여 경제성, 안전성, 기능성 등을 고려해<br/>
+                        설계를 진행하는 직무
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">제품 설계</span>
+                        <span class="badge">설계 스케치</span>
+                        <span class="badge">모형 제작</span>
+                        <span class="badge">구매</span>
+                    </div>
+                </div>
+
+                <input type="radio" name="tabs1" id="equip_tab02">
+                <label for="equip_tab02">가공팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        기계 및 장비의 조립조건 및 기준을 파악하여 조립 순서를 확인하며<br/>
+                        이에 적합한 조합계획을 수립하고 해당 장비의 조립
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">부품 가공</span>
+                        <span class="badge">장비 조립</span>
+                    </div>
+                </div>
+
+                <input type="radio" name="tabs1" id="equip_tab03">
+                <label for="equip_tab03">설비셋업팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        FAT, SAT 대응을 위해 설비의 셋업을<br/>
+                        전문적으로 진행하는 직무
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">설비 셋업</span>
+                        <span class="badge">설치 및 시운전</span>
+                    </div>
+                </div>
+
+                <input type="radio" name="tabs1" id="equip_tab04">
+                <label for="equip_tab04" class="label03">제어팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        장비/설비에 대한 사양을 정하며, 정해진 사양에 대해 시스템으로 구현하여 구현된 시스템이<br/>
+                        잘 수행될 수 있도록 구성하며 구성된 시스템을 검증하는 직무
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">전장 제어</span>
+                        <span class="badge">PLC제어</span>
+                    </div>
+                </div>
+
+                <input type="radio" name="tabs1" id="equip_tab05">
+                <label for="equip_tab05" class="label03">품질팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        제품의 구매, 불량제품이 고객에게 유출되는 것을 방지하기 위하여<br/>
+                        원자재에 대한 검사를 실시
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">구매</span>
+                        <span class="badge">검사</span>
+                        <span class="badge">품질 관리</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn_close" onclick="closeModal(this);">
+            <span class="blind">닫기</span>
+        </button>
+    </div>
+    <div class="modal_box career battery" id="battery_modal">
+        <div class="modal_top">
+            <h3>전지 개발 연구소</h3>
+        </div>
+        <div class="modal_con">
+            <h4 class="tit">직무 소개</h4>
+            <p class="txt">
+                당사가 보유한 배터리 장비를 활용하여 리튬이온전지 및 전극 공정을 사전 개발 및 최적화하고<br/>
+                고객의 요구 조건에 맞는 배터리 솔루션을 제공
+            </p>
+            <h4 class="tit">주요 업무</h4>
+            <div class="work_badge">
+                <span class="badge">소재 연구</span>
+                <span class="badge">이차전지 제조 공정 및 설계</span>
+                <span class="badge">전지 제작 및 평가</span>
+            </div>
+        </div>
+        <button type="button" class="btn_close" onclick="closeModal(this);">
+            <span class="blind">닫기</span>
+        </button>
+    </div>
+    <div class="modal_box career affairs" id="affairs_modal">
+        <div class="modal_top">
+            <h3>총무 및 대외협력부</h3>
+        </div>
+        <div class="modal_con">
+            <div class="modal_career_tab">
+                <input type="radio" name="tabs2" id="affairs_tab01" checked="checked">
+                <label for="affairs_tab01">총무 지원팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        충주 지점의 자산, 시설, 공사, 행정, 보안, 안전교육 및 관리, 연구지원, 생산지원,기타 업무를 수행하며,<br/>
+                        이에 발생되는 계약 진행 및 후속 관리의 업무를 담당하며 필요한 자산 및 공사 관련한 구매업무를 수행
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">자산관리</span>
+                        <span class="badge">시설 관리</span>
+                        <span class="badge">안전·환경 관리</span>
+                        <span class="badge">보안 관리</span>
+                        <span class="badge">공사 관리</span>
+                        <span class="badge">연구·생산 지원·구매</span>
+                    </div>
+                </div>
+                <input type="radio" name="tabs2" id="affairs_tab02">
+                <label for="affairs_tab02">대외협력팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        동종업체 및 관련업계와의 동향 파악, 거래협력 또는 기술협력 증진을 위해<br/>
+                        정보를 교류하고 협력 약정을 진행하는 직무
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">대외 협력</span>
+                        <span class="badge">기술 협력 증진</span>
+                        <span class="badge">동종업계 동향 파악</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn_close" onclick="closeModal(this);">
+            <span class="blind">닫기</span>
+        </button>
+    </div>
+    <div class="modal_box career supports" id="supports_modal">
+        <div class="modal_top">
+            <h3>경영지원부</h3>
+        </div>
+        <div class="modal_con">
+            <h4 class="tit">직무 소개</h4>
+            <p class="txt">
+                회사 전반적으로 적절한 지원을 통하여 내부 품질을 향상시키며<br/>
+                경영진의 의사결정을 지원해 주는 업무
+            </p>
+            <h4 class="tit">주요 업무</h4>
+            <div class="work_badge">
+                <span class="badge">재무</span>
+                <span class="badge">세무</span>
+                <span class="badge">회계</span>
+                <span class="badge">기획</span>
+                <span class="badge">인사</span>
+                <span class="badge">총무</span>
+                <span class="badge">노무</span>
+                <span class="badge">법무</span>
+                <span class="badge txt">홍보</span>
+            </div>
+        </div>
+        <button type="button" class="btn_close" onclick="closeModal(this);">
+            <span class="blind">닫기</span>
+        </button>
+    </div>
+    <div class="modal_box career supports2" id="supports2_modal">
+        <div class="modal_top">
+            <h3>영업부</h3>
+        </div>
+        <div class="modal_con">
+            <div class="modal_career_tab">
+                <input type="radio" name="tabs3" id="supports2_tab01" checked="checked">
+                <label for="supports2_tab01">영업지원팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        거래처 의견조율과 전략수립, 영업부의 판매 현황을 관리하고, 시장상황과 영업지표 등을 분석하여 영업부에 제공하고<br/>
+                        현장의 어려움을 회사 내부에 전달하여 애로사항을 해소하는 창구가 되기도 하는 업무
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">영업 실적 관리</span>
+                        <span class="badge">거래처 계약 관리</span>
+                        <span class="badge">견적서 작성</span>
+                        <span class="badge">신규 계약</span>
+                    </div>
+                </div>
+                <input type="radio" name="tabs3" id="supports2_tab02">
+                <label for="supports2_tab02">기술영업팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        기술적인 부문에 있어 고객과 회사 내부 설계/공정 직원들과의 중간 매개체 역할을 하며<br/>
+                        제작이 완료된 이후의 제품에 대해 중간에 문제가 생길 수 있는 부분에 대하여 제품의 품질 및 고객 대응을 관리
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">고객 지원</span>
+                        <span class="badge">기술 지원</span>
+                        <span class="badge">품질 관리</span>
+                    </div>
+                </div>
+                <input type="radio" name="tabs3" id="supports2_tab03">
+                <label for="supports2_tab03">기술영업팀</label>
+                <div class="tab">
+                    <h4 class="tit">직무 소개</h4>
+                    <p class="txt">
+                        해외영업으로 해외 시장조사, 판매 타켓 설정, 제품포지셔닝을<br/>
+                        기반으로 업무를 수행
+                    </p>
+                    <h4 class="tit">주요 업무</h4>
+                    <div class="work_badge">
+                        <span class="badge">해외 영업</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn_close" onclick="closeModal(this);">
+            <span class="blind">닫기</span>
+        </button>
+    </div>
+</div>
+
+<footer>
+    <div class="inner">
+        <div class="company_info">
+            <a href="" class="logo">
+                <span class="blind">로고</span>
+            </a>
+            <dl class="info">
+                <dt>Address</dt>
+                <dd>본사 : 서울특별시 구로구 디지털로 306,지층 B103호<br/>
+                    1지점: 충주 대소원면 메가폴리스로 13-23<br/>
+                    2지점: 충주 대소원면 메가폴리스로 1로 117-12
+                </dd>
+            </dl>
+            <dl class="info">
+                <dt>TEL</dt>
+                <dd>02-2082-0003~5</dd>
+            </dl>
+            <dl class="info">
+                <dt>E - mail</dt>
+                <dd>mediatech@mte21.com</dd>
+            </dl>
+        </div>
+        <div class="company_nav">
+            <ul class="list">
+                <li>
+                    <strong>BUSINESS</strong>
+                </li>
+                <li>
+                    <a href="" class="link">토탈솔루션</a>
+                </li>
+                <li>
+                    <a href="" class="link">설비제조</a>
+                </li>
+                <li>
+                    <a href="" class="link">
+                        교육&<br/>
+                        Battery Academy
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link">셀개발</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <strong>PRODUCT</strong>
+                </li>
+                <li>
+                    <a href="" class="link">전극</a>
+                </li>
+                <li>
+                    <a href="" class="link">원형</a>
+                </li>
+                <li>
+                    <a href="" class="link">파우치형</a>
+                </li>
+                <li>
+                    <a href="" class="link">각형</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <strong>COMPANY</strong>
+                </li>
+                <li>
+                    <a href="" class="link">회사소개</a>
+                </li>
+                <li>
+                    <a href="" class="link">CEO 인사말</a>
+                </li>
+                <li>
+                    <a href="" class="link">레퍼런스</a>
+                </li>
+                <li>
+                    <a href="" class="link">글로벌 클라이언트</a>
+                </li>
+                <li>
+                    <a href="" class="link">뉴스룸</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <strong>CAREER</strong>
+                </li>
+                <li>
+                    <a href="" class="link">인재상</a>
+                </li>
+                <li>
+                    <a href="" class="link">직무소개</a>
+                </li>
+                <li>
+                    <a href="" class="link">복리후생</a>
+                </li>
+                <li>
+                    <a href="" class="link">채용안내</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <strong>CONTACT</strong>
+                </li>
+                <li>
+                    <a href="" class="link">문의하기</a>
+                </li>
+                <li>
+                    <a href="" class="link">오시는길</a>
+                </li>
+            </ul>
+            <button type="button" class="">개인정보처리방침</button>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>2023 ⓒ ENERGYTECHSOLUTION CORP.</p>
+    </div>
+</footer>
+
+<div class="dimmed" id="dimmed" style="display:none"></div>
+
+<script src="./js/index.js"></script>
+<script>
+
+    const header = document.getElementById('header');
+
+    window.addEventListener('scroll',() => {
+        const headerHeight = header.offsetHeight;
+        const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+
+        if(scrollY < headerHeight) {
+            header.classList.remove('active')
+        } else {
+            header.classList.add('active')
+        }
+    });
+
+    const navItemList = document.getElementsByClassName('list');
+    for (let i=0; i < navItemList.length; i++){
+        const nav = document.getElementsByClassName('nav_item')[i];
+        navItemList[i].addEventListener('mouseenter', () => {
+            nav.classList.add('active');
+        });
+        navItemList[i].addEventListener('mouseleave', () => {
+            nav.classList.remove('active');
+        });
+    }
+
+
+    /**
+     * Modal
+     */
+    const openModal = function(id) {
+        const modal = document.getElementById(`${id}_modal`);
+        if (!modal) {
+            return;
+        }
+
+        const dimmed = document.getElementById('dimmed');
+
+        modal.style.display = 'block';
+        dimmed.style.display = 'block';
+    }
+
+    const closeModal = function(e) {
+        console.log(e);
+        console.log(e.parentElement);
+        e.parentElement.style.display = 'none';
+        dimmed.style.display = 'none';
+    }
+</script>
+</body>
+</html>
