@@ -798,7 +798,7 @@ body header.header_con.active .nav .link:after {content:none}
 .scrollbar::-webkit-scrollbar {margin-right:10px;width: 0px;background-color:rgba(0,0,0,0)}
 .scrollbar::-webkit-scrollbar-track, .scrollbar::-webkit-scrollbar-thumb {border:3px solid rgba(0,0,0,0);background-clip:padding-box}
 
-.loading {position:fixed;top:0;left:0;display:none;align-items:center;justify-content:center;width:100%;height:100vh;background:#000;z-index:9999;animation-name:fadeOut;animation-duration:2.5s;animation-play-state:running;animation-fill-mode:both}
+.loading {position:fixed;top:0;left:0;display:none;align-items:center;justify-content:center;width:100%;height:100vh;background:#fff;z-index:9999;animation-name:fadeOut;animation-duration:2.5s;animation-play-state:running;animation-fill-mode:both}
 .loading.active {display:flex}
 .loading img {width:1000px}
 

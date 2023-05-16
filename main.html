@@ -614,8 +614,7 @@
     const COOKIE_NAME = 'intro-view';
 
     (function () {
-        const cookie = getCookie(COOKIE_NAME);  //하루에 한번 안봤다고 가정하고 loading 보고싶으면 이거 주석 풀고 아래 주석처리
-        // const cookie = 'y';      //하루에 한번 봤다고 가정하고 loading 보기 싫으면 이거 주석 풀고 위에 주석처리
+        const cookie = getCookie(COOKIE_NAME);
         if (!cookie || cookie !== 'y') {
             document.getElementById('loading').classList.add('active');
             document.getElementById('container').classList.add('active');
